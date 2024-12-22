@@ -1,0 +1,21 @@
+
+
+
+.AddmainCart{
+    @apply h-[120px] md:h-[200px] w-[120px] md:w-[200px] border-[2px] border-[#A888B5] border-dashed flex items-center justify-center gap-2 rounded-[10px] mb-8
+
+}
+.AddCartIcon{
+    @apply text-gray-400 text-[20px] md:text-[25px] transition-all duration-[.1s] 
+}
+.AddmainCart:hover .AddCartIcon{
+    @apply rotate-[-25deg] text-[30px]
+}
+
+
+.AddCartIconText{
+    @apply text-gray-400 text-[13px] md:text-[18px] font-Monstarait font-semibold
+}
+
+
+

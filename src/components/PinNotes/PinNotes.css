@@ -1,0 +1,19 @@
+.MainSingleNote{
+    @apply md:h-[] h-[] md:w-[240px] w-[200px] rounded-[7px] border-4 border-double dark:border-[#FFCFB3] border-[#BCCCDC] p-3 md:p-4 
+
+} 
+
+.MainSingleNoteH2{
+    @apply dark:text-[#ffffff88] text-[#00000084] font-semibold font-roboto 
+}
+.MainSingleNoteP{
+    @apply text-[10px] md:w-[190px] w-[170px] md:text-[11px] dark:text-[#ffffffce] text-[#000000d1] font-medium font-Monstarait  break-words 
+}
+
+
+
+
+
+
+
+

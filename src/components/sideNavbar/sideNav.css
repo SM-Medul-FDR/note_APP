@@ -1,0 +1,33 @@
+
+
+.main_side_nav{
+    @apply border-r-[1px] dark:bg-[#202124] bg-slate-100 border-gray-300 w-[170px] md:w-[300px]
+      h-screen
+       pt-4 transition-all duration-[.2s]
+}
+.single_nav_Active{
+    @apply flex items-center gap-5 dark:bg-[#41331C] bg-[#FEEFC3] w-[97%]  mb-[8px] rounded-r-[50px] py-[10px] text-[14px] font-[500] dark:text-white text-black pl-3 md:pl-6 font-roboto transition-all duration-[.2s]
+}
+.single_nav_unactive{
+    @apply flex items-center gap-5 dark:hover:bg-[#28292C] hover:bg-slate-200 w-[97%]  mb-[8px] rounded-r-[50px] py-[10px] text-[14px] font-[500] dark:text-white text-black pl-3 md:pl-6 font-roboto 
+}
+.Nav_icons{
+    @apply text-[20px]
+}
+
+
+
+.Button_Durk{
+    @apply py-1 px-3 bg-[#FEEFC3] text-black font-nunito font-semibold text-[15px] rounded-[7px] transition-all duration-[.2s]
+}
+.Button_Light{
+    @apply py-1 px-3 bg-[#41331C] text-white text-[15px] rounded-[7px] font-nunito font-semibold transition-all duration-[.2s]
+}
+.Change_Theme{
+    @apply text-[9px] md:text-[10px] dark:text-white mt-2 md:mt-3 font-Monstarait transition-all duration-[.2s]
+}
+
+
+
+
+

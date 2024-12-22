@@ -1,0 +1,68 @@
+
+
+.popup{
+    @apply h-screen backdrop-blur-sm bg-[#ffffff00]  top-0 right-0
+    fixed  transition-all duration-[.2s] flex justify-center items-center 
+}
+.popup .PopupCrossButton {
+    @apply  absolute  top-7 right-7 dark:text-[#eb8b5b] text-[#744f44] text-[20px] hover:rotate-180 transition-all duration-[.4s] rounded-full
+     
+}
+
+
+.PopupInputField{
+    @apply w-[400px] md:w-[740px]  dark:bg-[#] rounded-[10px] backdrop-blur-sm p-[20px] md:h-[610px]
+}
+.PopupInputFieldTitle{
+    @apply md:text-[35px] text-[23px] font-nunito font-semibold
+     /* text-[#ffffffc0] */
+}
+.PopupInputFieldInput{
+    @apply w-full h-14 rounded-r-full outline-none border-0 dark:bg-[#e2e2e249] bg-[#d9eafda6] pl-6 md:text-[25px] text-[20px] font-nunito
+}
+.PopupInputFieldNote{
+    @apply w-full h-[175px] md:h-[285px] rounded-bl-lg rounded-tr-lg outline-none border-0 dark:bg-[#e2e2e249] bg-[#d9eafda6] px-4 md:py-3 py-2 md:text-[25px] text-[20px] font-nunito 
+}
+
+
+.popupColorIcon{
+    @apply text-[20px] transition-all duration-[.2s] dark:text-[#ffffffc0] text-[#0f0f0f69] 
+}
+.PopupColorButtons1{
+    @apply h-[20px] w-[20px] rounded-full bg-[#FF8A8A] border-[2px]
+}
+.PopupColorButtons2{
+    @apply h-[20px] w-[20px] rounded-full bg-[#F29F58] border-[2px]
+}
+.PopupColorButtons3{
+    @apply h-[20px] w-[20px] rounded-full bg-[#756AB6] border-[2px]
+}
+.PopupColorButtons4{
+    @apply h-[20px] w-[20px] rounded-full bg-[#fff] border-[2px]
+}
+.PopupColorButtons5{
+    @apply h-[20px] w-[20px] rounded-full bg-[#1e847bf3] border-[2px]
+}
+.PopupColorButtons6{
+    @apply h-[20px] w-[20px] rounded-full bg-[#4866c1] border-[2px]
+}
+.PopupCustomColor{
+    @apply h-[20px] w-[20px] rounded-full border-[1px] flex justify-center items-center text-[#414546ec] dark:text-[rgb(255,255,255)]
+}
+.PopupCustomColorIcon{
+    @apply text-[13px] rotate-[-45deg] hover:rotate-0 transition-all duration-[.2s]
+}
+.PopupColors{
+    @apply    transition-all duration-[.2s]
+}
+
+
+
+
+
+
+
+
+
+
+
